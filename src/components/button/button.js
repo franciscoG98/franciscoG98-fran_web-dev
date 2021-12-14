@@ -1,4 +1,5 @@
 import React from 'react'
+import './buttonStyles.css'
 
  const Button = ({ label }) => {
     return (
