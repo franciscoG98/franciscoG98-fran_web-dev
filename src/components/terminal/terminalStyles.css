@@ -1,0 +1,78 @@
+.container {
+  border: 1px solid red;
+  height: 30em;
+  margin: auto;
+  width: 60em;
+}
+
+.terminal-container {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #292f38;
+  margin-top: 10px;
+  width: 60em;
+  height: 30em;
+}
+
+.terminal-header {
+  background-color: #4c5562;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #fff;
+  font-weight: 900;
+  bottom: 100px;
+  padding: 10px 0;
+  text-align: center;
+  width: 60em;
+}
+
+.terminal-icon {
+  margin-right: 10px;
+  margin-bottom: -5px;
+
+}
+
+.user-side {
+  width: 20%;
+  border: 1px solid yellow;
+}
+
+.terminal-bash {
+  color: #28b434;
+  margin: 20px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.cursor {
+  width: 10px;
+  color: #28b434;
+  transition: 0.2s;
+
+  margin: 0 auto;
+  width: 0em;
+  font-size: 1em;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.5em solid #39b43f;
+
+  animation: cursor 500ms steps(100) infinite;
+}
+
+.terminal-text {
+  border: 3px solid rgb(110, 35, 35);
+  color: #fff;
+}
+
+@keyframes cursor {
+  0% {
+    border-right-color: #39b43f;
+  }
+  90% {
+    border-right-color: #39b43f;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
