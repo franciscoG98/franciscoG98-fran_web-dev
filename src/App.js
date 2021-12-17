@@ -8,10 +8,10 @@ import Terminal from "./components/terminal/Terminal";
 function App() {
   return (
     <>
-      {/* <Layout className="particles-js" /> */}
-        <h1 className="title">Hello mf, welcome to my hell</h1>
+      <Layout className="particles-js" />
+        <h1 className="title">Hello mother F, welcome to my hell</h1>
       {/* <Button className="button" label="clic me if u dare" /> */}
-      <Terminal title='pancho@dev:~/workspace/fg-portfolio' bash='pancho@user~$' text='fvk u' />
+      <Terminal title='[pancho@dev:~/workspace/fg-portfolio]' bash='pancho@user~$' text='fvk u' />
       
     </>
   );
