@@ -10,11 +10,32 @@ html {
   width: 100%;
   height: 100%;
   position: fixed;
+  /* position: absolute; */
   z-index: -10;
+  /* z-index: auto; */
   top: 0;
   left: 0;
+  background-color:rgb(122, 42, 42);
+}
+
+.app-navbar {
+  z-index: 2;
+  position: absolute;
 }
 
 .title {
-  z-index: 0;
+  z-index: 2;
+  position: relative;
+  margin: 50px 300px;
+}
+
+.app-terminal {
+  position:absolute;
+  z-index:4;
+}
+
+.app-loader {
+  position:absolute;
+  z-index:8;
+  background-color: green;
 }

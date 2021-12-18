@@ -1,0 +1,14 @@
+.navbar-container {
+    background-color: green;
+    border: 3px solid red;
+    width: 30em;
+    height: 2em;
+    z-index: 5;
+    position: fixed;
+    flex-direction: row;
+}
+
+.navbar-link {
+    font-weight: 700;
+    font-size: 1.2em;
+}
