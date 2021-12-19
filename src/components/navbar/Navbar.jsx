@@ -1,26 +1,37 @@
 import React from "react";
-import "./navbarStyles.css";
-import { Link } from "react-router-dom";
-const Navbar = () => {
-  return (
-    <nav className="navbar-container">
-      <Link className="navbar-link" to="/home">
-        Home
-      </Link>
-      <Link className="navbar-link" to="/education">
-        Education
-      </Link>
-      <Link className="navbar-link" to="/work">
-        Work
-      </Link>
-      <Link className="navbar-link" to="/skills">
-        Skills
-      </Link>
-      <Link className="navbar-link" to="/contact-me">
-        Contact me
-      </Link>
-    </nav>
-  );
-};
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-export default Navbar;
+import "./navbarStyles.css";
+import {
+  AiOutlineHome,
+  AiOutlineBook,
+  AiOutlineCode,
+  AiOutlineLaptop,
+} from "react-icons/ai";
+
+export default function Navbar() {
+  return (
+    <Router>
+      <div className="navbar-container">
+        <nav>
+          <Link className='navbar-link' activeClassName="active" exact to="/">
+            <AiOutlineHome />
+            Home
+          </Link>
+          <Link className='navbar-link' activeClassName="active" to="/education">
+            <AiOutlineBook />
+            Educaction
+          </Link>
+          <Link className='navbar-link' activeClassName="active" to="/skills">
+            <AiOutlineCode />
+            Skills
+          </Link>
+          <Link className='navbar-link' activeClassName="active" to="/contact">
+            <AiOutlineLaptop />
+            Contact me
+          </Link>
+        </nav>
+      </div>
+    </Router>
+  );
+}

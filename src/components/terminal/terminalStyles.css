@@ -14,13 +14,14 @@
 .terminal-container {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  background-color: #292f38;
-  margin-top: 10px;
+  background-color: var(--terminal-container);
+  margin-top: 40px;
   width: 60em;
   height: 30em;
 }
 
 .terminal-header {
+  /* background-color: #4c5562; */
   background-color: #4c5562;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -45,7 +46,7 @@
 }
 
 .terminal-bash {
-  color: #39b43f;
+  color: var(--main-green);
   font-weight: 700;
   margin-left: 10px;
   font-size: 1em;
@@ -53,14 +54,14 @@
 
 .cursor {
   width: 10px;
-  color: #39b43f;
+  color: var(--main-green);
   transition: 0.2s;
   width: 1em;
   font-size: 1em;
   font-weight: 400;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 0.5em solid #39b43f;
+  border-right: 0.5em solid var(--main-green);
   animation: cursor 50ms steps(500) infinite;
 }
 
@@ -73,47 +74,47 @@
 
 
 .line1 {
-  animation: typewritter 3s steps(20) ease-in-out;
+  animation: typewritter 8s steps(20) ease-in-out;
 }
 .line2 {
-  animation: typewritter 3s steps(20) infinite;
-  animation-delay: 50s;
+  animation: typewritter 8s steps(20) ease-in-out;
+  animation-delay: 10s;
 }
 .line3 {
-  animation: typewritter 3s steps(20) infinite;
-  animation-delay: 50s;
+  animation: typewritter 8s steps(20) ease-in-out;
+  animation-delay: 18s;
 }
 .line4 {
-  animation: typewritter 3s steps(20) infinite;
-  animation-delay: 50s;
+  animation: typewritter 8s steps(20) ease-in-out;
+  animation-delay: 26s;
 }
 .line5 {
-  animation: typewritter 3s steps(20) infinite;
-  animation-delay: 50s;
+  animation: typewritter 8s steps(20) ease-in-out;
+  animation-delay: 32s;
 }
 
 
 @keyframes cursor {
   0% {
-    border-right-color: #39b43f;
+    border-right-color: var(--main-green);
   }
   25% {
     border-right-color: transparent;
   }
   50% {
-    border-right-color: #39b43f;
+    border-right-color: var(--main-green);
   }
   75% {
     border-right-color: transparent;
   }
   100% {
-    border-right-color: #39b43f;
+    border-right-color: var(--main-green);
   }
   0% {
     border-right-color: transparent;
   }
   90% {
-    border-right-color: #39b43f;
+    border-right-color: var(--main-green);
   }
   100% {
     border-right-color: transparent;
@@ -126,7 +127,7 @@
     height: 0;
     visibility: hidden;
   }
-  /* 20% {
+  20% {
     width: 0;
     height: 0;
     visibility: hidden;
@@ -134,12 +135,14 @@
   25% {
     width: 25%;
     height: 1em;
+    visibility: hidden;
   }
-  50% {
+  30% {
     width: 50%;
     height: 1em;
-  } */
-  90% {
+    visibility: hidden;
+  }
+  35% {
     width: 75%;
     height: 1em;
   }

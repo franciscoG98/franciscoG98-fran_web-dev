@@ -6,6 +6,12 @@ html {
   height: 100%;
 }
 
+:root {
+  --main-green: #39b43f;
+  --ligh-gray: #4c5562;
+  --terminal-container: #292f38;
+}
+
 .particles-js {
   width: 100%;
   height: 100%;
@@ -30,6 +36,7 @@ html {
 }
 
 .app-terminal {
+  margin-top: 3000px;
   position:absolute;
   z-index:4;
 }
