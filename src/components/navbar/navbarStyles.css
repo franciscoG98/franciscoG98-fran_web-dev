@@ -27,21 +27,22 @@
 
 .navbar-link :hover {
   text-decoration: none;
-  font-size: 800;
+  font-size: 2;
+  transition: 2s;
   color: var(--main-green);
 }
 
 
 .active {
-  border-bottom: 3px solid rgb(57, 180, 63);
-  color: rgb(57, 180, 63);
+  border-bottom: 3px solid var(--main-green);
+  color: var(--main-green);
   font-weight: 800;
   text-decoration: none;
   transition: .5s;
 }    
 
 .active:hover {
-  color: rgb(57, 180, 63);
+  color: var(--main-green);
   font-weight: 700;
   text-decoration: none;
   transition: .5s;

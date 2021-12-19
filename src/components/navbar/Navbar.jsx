@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./navbarStyles.css";
 import {
@@ -11,7 +11,6 @@ import {
 
 export default function Navbar() {
   return (
-    <Router>
       <div className="navbar-container">
         <nav>
           <Link className='navbar-link' activeClassName="active" exact to="/">
@@ -32,6 +31,5 @@ export default function Navbar() {
           </Link>
         </nav>
       </div>
-    </Router>
   );
 }

@@ -31,8 +31,10 @@ html {
 
 .title {
   z-index: 2;
+  font-weight: 500;
   position: relative;
-  margin: 50px 300px;
+  margin: 50px auto 20px auto;
+  width: max-content;
 }
 
 .app-terminal {
