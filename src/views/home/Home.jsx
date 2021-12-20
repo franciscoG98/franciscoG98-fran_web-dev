@@ -1,11 +1,14 @@
 import React from "react";
 import "./homeStyles.css";
 
+import Terminal from "../../components/terminal";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <Terminal
+      title="[pancho@dev:~/workspace/fg-portfolio]"
+      bash="pancho@user~$"
+    />
   );
 };
 

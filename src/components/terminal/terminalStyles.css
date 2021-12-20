@@ -8,7 +8,7 @@
   z-index: 1;
   height: 30em;
   width: 60em;
-  margin-left: 10em;
+  margin: 0 80px 100px 80px;
 }
 
 .terminal-container {
@@ -68,29 +68,23 @@
 .terminal-text {
   color: #fff;
   max-width: fit-content;
-  /* animation: typewritter 8s steps(30) infinite; */
-  /* animation: typewritter 8s steps(30) ease-in-out; */
 }
 
 
 .line1 {
-  animation: typewritter 8s steps(20) ease-in-out;
+  animation: typewritter 2s steps(20) infinite;
 }
 .line2 {
-  animation: typewritter 8s steps(20) ease-in-out;
-  animation-delay: 10s;
+  animation: typewritter 2s steps(20) infinite;
 }
 .line3 {
-  animation: typewritter 8s steps(20) ease-in-out;
-  animation-delay: 18s;
+  animation: typewritter 2s steps(20) infinite;
 }
 .line4 {
-  animation: typewritter 8s steps(20) ease-in-out;
-  animation-delay: 26s;
+  animation: typewritter 2s steps(20) infinite;
 }
 .line5 {
-  animation: typewritter 8s steps(20) ease-in-out;
-  animation-delay: 32s;
+  animation: typewritter 2s steps(20) infinite;
 }
 
 
@@ -142,7 +136,7 @@
     height: 1em;
     visibility: hidden;
   }
-  35% {
+  50% {
     width: 75%;
     height: 1em;
   }
