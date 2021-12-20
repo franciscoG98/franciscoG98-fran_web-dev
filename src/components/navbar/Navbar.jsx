@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Router, NavLink } from "react-router-dom";
 
 import "./navbarStyles.css";
 import {
@@ -13,22 +13,31 @@ export default function Navbar() {
   return (
       <div className="navbar-container">
         <nav>
-          <Link className='navbar-link' activeClassName="active" exact to="/">
+          <NavLink className='navbar-link' activeClassName="active" exact to="/">
             <AiOutlineHome />
             Home
-          </Link>
-          <Link className='navbar-link' activeClassName="active" to="/education">
-            <AiOutlineBook />
-            Educaction
-          </Link>
-          <Link className='navbar-link' activeClassName="active" to="/skills">
+          </NavLink>
+          
+          <NavLink className='navbar-link' activeClassName="active" to="/skills">
             <AiOutlineCode />
             Skills
-          </Link>
-          <Link className='navbar-link' activeClassName="active" to="/contact">
+          </NavLink>
+
+          <NavLink className='navbar-link' activeClassName="active" to="/about">
+            <AiOutlineBook />
+            About
+          </NavLink>
+
+          <NavLink className='navbar-link' activeClassName="active" to="/work">
+            <AiOutlineLaptop />
+            Work
+          </NavLink>
+          
+          <NavLink className='navbar-link' activeClassName="active" to="/contact">
             <AiOutlineLaptop />
             Contact me
-          </Link>
+          </NavLink>
+          
         </nav>
       </div>
   );
