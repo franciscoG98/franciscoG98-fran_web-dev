@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Francisco Gonzalez Portfolio V2
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This SPA is beeing created with react, react-bootstrap, react icons, etc.
+The main idea of this project is to show my skills as a web developer, and in the future MAYBE add test to it. Also learn more about deploy, because mi [portfolio V1](https://franciscog98.github.io/portfolio) is on github-pages, so I'd like to try something new.
+
+I'll maintein the terminal with typewritter effect on the landing page, but adding in all the other views the particles.js effect, some day I will show you some gif or video. The things I wanna improve about version 1 is the routing and the contact me section, because it seems that it isn't clear enough.
+
+kiss phylosofy.
+
+hope you like my code!
 
 ## Available Scripts
 
@@ -86,3 +94,5 @@ https://www.youtube.com/watch?v=HFIB_5QQUsM
     Loading
 
 [layout with particles js](https://vincentgarreau.com/particles.js/#nasa)
+
+[error to solve](https://stackoverflow.com/questions/41218507/violation-long-running-javascript-task-took-xx-ms)

@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
       <div className="navbar-container">
         <nav>
-          <NavLink className='navbar-link' activeclassname="active" exact to="/">
+          <NavLink className='navbar-link' activeclassname="active" exact="true" to="/">
             <AiOutlineHome size={20}/>
             Home
           </NavLink>

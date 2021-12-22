@@ -6,13 +6,12 @@
 }
 
 .skills-title {
-  position: absolute;
-  font-size: 1.2em;
-  /* bottom: 20px; */
-  padding: 10px;
-  /* margin-bottom: 30px; */
   background-color: var(--ligh-gray);
   border-radius: 20px;
+  color:var(--main-green);
+  font-size: 1.2em;
+  padding: 10px;
+  position: absolute;
 }
 
 .skills-front {

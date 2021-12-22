@@ -1,0 +1,10 @@
+.contactme-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactme-row {
+    display: flex;
+    flex-direction: row;
+}
