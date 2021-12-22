@@ -1,0 +1,20 @@
+.card-container {
+    border: 1px solid #000;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.card-title {
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.card-content {
+    background-color: #808080;
+}
+
+.card-info {
+    font-size: .8em;
+    font-weight:500;
+}
