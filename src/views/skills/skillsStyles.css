@@ -1,0 +1,47 @@
+.skills-container {
+  display: relative;
+  border: 2px solid red;
+  text-align: center;
+  z-index: 3;
+}
+
+.skills-title {
+  position: absolute;
+  font-size: 1.2em;
+  /* bottom: 20px; */
+  padding: 10px;
+  /* margin-bottom: 30px; */
+  background-color: var(--ligh-gray);
+  border-radius: 20px;
+}
+
+.skills-front {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.skill-icon {
+  margin: 5px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.skill-span {
+  padding: 10px;
+  margin: 5px;
+}
+
+.skills-back {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.skills-other {
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+}
