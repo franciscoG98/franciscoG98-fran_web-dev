@@ -1,54 +1,62 @@
 .navbar-container {
+  align-items: center;
   background-color: var(--ligh-gray);
   border: 2px dashed var(--main-green);
   color: #fff;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   font-size: 1.2em;
   height: 2em;
-  margin: auto;
+  /* correct this shit */
+
+  /* margin-left: 25%; */
+  /* width: fit-content; */
+  max-width: 50vw;
+  margin-left: 15%;
+
+  /* correct this shit */
+
   position: relative;
-  padding: 10px;
+  padding: 10px 40px;
   top: 10px;
-  width: fit-content;
   z-index: 5;
 }
 
 .navbar-link {
-  font-weight: 500;
+  align-items: center;
   color: var(--main-green);
   font-size: 1.2em;
-  padding: 10px 15px;
+  font-weight: 500;
   justify-content: space-around;
-  align-items: center;
+  padding: 10px 15px;
   text-decoration: none;
   width: fit-content;
 }
 
-.navbar-link:hover {
-  text-decoration: none;
-  font-weight: 800;
-  /* font-size: 2; */
+.navbar-link :hover {
+  border-top: var(--main-green);
+  color: var(--main-green);
+  font-size: 1.5em;
+  font-weight: 900;
   transition: 1s;
-  color: var(--ligh-gray);
 }
 
-
 .active {
-  border-bottom: 3px solid var(--main-green);
+  border-bottom: 2px solid var(--main-green);
   color: var(--main-green);
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
   transition: 1s;
-}    
+}
 
-.active:hover {
+.active :hover {
+  border-top: var(--main-green);
   color: var(--main-green);
-  font-weight: 800;
-  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 900;
   transition: 1s;
-}  
-
+}
 
 /* ------------------------------------------------------ */
 
@@ -62,4 +70,3 @@
   text-decoration: underline;
   transition: .5s;
 }     */
-
