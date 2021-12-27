@@ -26,13 +26,15 @@
 }
 
 .contact-lnk {
-    text-decoration: none;
     color: var(--main-green);
     font-weight: 900;
+    text-decoration: none;
 }
 
 .contact-lnk :hover {
-    text-decoration: underline;
-    color: var(--main-green);
+    text-decoration: underline !important;
+    color: var(--terminal-container);
     font-weight: 900;
+    transition: 1s;
+    cursor: pointer;
 }

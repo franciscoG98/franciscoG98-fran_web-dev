@@ -8,6 +8,7 @@ import {
   AiOutlineCodepen,
 } from "react-icons/ai";
 import { RiPagesLine } from "react-icons/ri";
+import Form from "../../components/form";
 
 const Contact = () => {
   return (
@@ -73,8 +74,8 @@ const Contact = () => {
         </Col>
       </Row>
 
-      {/* old portfolio */}
       <Row className="contactme-container">
+        {/* old portfolio */}
         <Col xs={12} sm={6} md="6" lg={6} className="contactme-box">
           <h3 className="contacte-title">Portfolio-v1</h3>
           <hr />
@@ -88,6 +89,21 @@ const Contact = () => {
           >
             Portfolio
           </a>
+        </Col>
+        {/* Calendly */}
+        <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
+          <h3 className="contacte-title">Calendly</h3>
+          <hr />
+          <Form />
+          <hr />
+          {/* <a
+            href="https://codepen.io/franciscog98"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-lnk"
+          > */}
+          {/* </a> */}
+          <span className="contact-lnk">Calendly</span>
         </Col>
       </Row>
     </Container>

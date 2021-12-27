@@ -86,12 +86,15 @@ https://www.youtube.com/watch?v=Yx-p3irizCQ&list=LL&index=1&t=188s
 layouts:
 https://www.youtube.com/watch?v=HFIB_5QQUsM
 
+mail:
+https://www.youtube.com/watch?v=t1_kviNJsy4
+
 ### Notes
 
-1- Jerarquia de componentes
+<!-- 1- Jerarquia de componentes
     header
     addButton
-    Loading
+    Loading -->
 
 [layout with particles js](https://vincentgarreau.com/particles.js/#nasa)
 
