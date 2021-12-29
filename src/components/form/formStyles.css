@@ -1,0 +1,21 @@
+.form_container {
+    position: relative;
+    
+}
+
+.form_label {
+    width: 200px;
+    margin: 10px 0 10px 0;
+}
+
+.form_input {
+    text-align: center;
+    width: 200px;
+    margin: 10px 0 10px 0;
+
+}
+
+.submit_btn {
+    width: 200px;
+    margin-top: 20px;
+}

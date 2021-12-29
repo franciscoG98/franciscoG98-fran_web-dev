@@ -6,8 +6,9 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiOutlineCodepen,
+  AiOutlineCalendar,
 } from "react-icons/ai";
-import { RiPagesLine } from "react-icons/ri";
+// import { RiPagesLine } from "react-icons/ri";
 import Form from "../../components/form";
 
 const Contact = () => {
@@ -48,15 +49,23 @@ const Contact = () => {
       </Row>
 
       <Row className="contactme-container">
-        {/* Mail */}
+        
+        {/* Calendly */}
         <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
-          <h3 className="contacte-title">Mail</h3>
+          <h3 className="contacte-title">Calendly</h3>
           <hr />
-          <AiOutlineMail size={70} />
+          <AiOutlineCalendar size={70} />
           <hr />
-
-          <span className="contact-lnk">franciscodev98@gmail.com</span>
+          {/* <a
+            href="https://codepen.io/franciscog98"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-lnk"
+          > */}
+          {/* </a> */}
+          <span className="contact-lnk">Calendly</span>
         </Col>
+
         {/* CodePen */}
         <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
           <h3 className="contacte-title">CodePen</h3>
@@ -75,8 +84,9 @@ const Contact = () => {
       </Row>
 
       <Row className="contactme-container">
+        
         {/* old portfolio */}
-        <Col xs={12} sm={6} md="6" lg={6} className="contactme-box">
+        {/* <Col xs={12} sm={6} md="6" lg={6} className="contactme-box">
           <h3 className="contacte-title">Portfolio-v1</h3>
           <hr />
           <RiPagesLine size={70} />
@@ -89,21 +99,17 @@ const Contact = () => {
           >
             Portfolio
           </a>
-        </Col>
-        {/* Calendly */}
+        </Col> */}
+
+        {/* Mail */}
         <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
-          <h3 className="contacte-title">Calendly</h3>
+          <h3 className="contacte-title">Mail</h3>
           <hr />
+          <AiOutlineMail size={70} />
           <Form />
           <hr />
-          {/* <a
-            href="https://codepen.io/franciscog98"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-lnk"
-          > */}
-          {/* </a> */}
-          <span className="contact-lnk">Calendly</span>
+
+          <span className="contact-lnk">franciscodev98@gmail.com</span>
         </Col>
       </Row>
     </Container>

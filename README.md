@@ -87,7 +87,9 @@ layouts:
 https://www.youtube.com/watch?v=HFIB_5QQUsM
 
 mail:
+emailJS tutorial
 https://www.youtube.com/watch?v=t1_kviNJsy4
+
 
 ### Notes
 
