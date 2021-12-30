@@ -4,7 +4,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
-  AiOutlineMail,
+  AiOutlineLink,
   AiOutlineCodepen,
   AiOutlineCalendar,
 } from "react-icons/ai";
@@ -27,7 +27,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="contact-lnk"
           >
-            Linkedin
+            <AiOutlineLink size={20} /> Linkedin
           </a>
         </Col>
 
@@ -43,13 +43,13 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="contact-lnk"
           >
+            <AiOutlineLink size={20} />
             Github
           </a>
         </Col>
       </Row>
 
       <Row className="contactme-container">
-        
         {/* Calendly */}
         <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
           <h3 className="contacte-title">Calendly</h3>
@@ -63,7 +63,10 @@ const Contact = () => {
             className="contact-lnk"
           > */}
           {/* </a> */}
-          <span className="contact-lnk">Calendly</span>
+          <span className="contact-lnk">
+          <AiOutlineLink size={20} />
+            Calendly
+            </span>
         </Col>
 
         {/* CodePen */}
@@ -78,14 +81,15 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="contact-lnk"
           >
+            <AiOutlineLink size={20} />
             CodePen
           </a>
         </Col>
       </Row>
 
       <Row className="contactme-container">
-        
         {/* old portfolio */}
+
         {/* <Col xs={12} sm={6} md="6" lg={6} className="contactme-box">
           <h3 className="contacte-title">Portfolio-v1</h3>
           <hr />
@@ -103,13 +107,11 @@ const Contact = () => {
 
         {/* Mail */}
         <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
-          <h3 className="contacte-title">Mail</h3>
+          <h3 className="contacte-title">Send me an email</h3>
+          {/* <AiOutlineMail size={20} /> */}
           <hr />
-          <AiOutlineMail size={70} />
           <Form />
           <hr />
-
-          <span className="contact-lnk">franciscodev98@gmail.com</span>
         </Col>
       </Row>
     </Container>

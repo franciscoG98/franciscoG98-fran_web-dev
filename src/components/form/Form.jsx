@@ -21,7 +21,6 @@ const Form = () => {
 
   return (
     <div>
-      <h4>FORM BITCHIE</h4>
       <form className="form_container" onSubmit={sendEmail}>
         <label className="form_label">Name</label>
         <br />
