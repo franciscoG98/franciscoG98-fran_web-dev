@@ -56,17 +56,15 @@ const Contact = () => {
           <hr />
           <AiOutlineCalendar size={70} />
           <hr />
-          {/* <a
-            href="https://codepen.io/franciscog98"
+          <a
+            href="https://calendly.com/francisco-webdev/15min"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-lnk"
-          > */}
-          {/* </a> */}
-          <span className="contact-lnk">
-          <AiOutlineLink size={20} />
+          >
+            <AiOutlineLink size={20} />
             Calendly
-            </span>
+          </a>
         </Col>
 
         {/* CodePen */}
@@ -108,7 +106,6 @@ const Contact = () => {
         {/* Mail */}
         <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
           <h3 className="contacte-title">Send me an email</h3>
-          {/* <AiOutlineMail size={20} /> */}
           <hr />
           <Form />
           <hr />
