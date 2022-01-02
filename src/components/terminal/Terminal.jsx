@@ -28,7 +28,8 @@ const Terminal = ({ title, bash }) => {
           <Col md={8} className=" line1 terminal-text">
             {mock[0]}
           </Col>
-          <Col md={1} className="cursor">
+          {/* <Col md={1} className="cursor"> */}
+          <Col md={1} className="">
             &nbsp;
           </Col>
         </Row>
@@ -42,7 +43,8 @@ const Terminal = ({ title, bash }) => {
           <Col md={8} className="line2 terminal-text">
             {mock[1]}
           </Col>
-          <Col md={1} className="cursor">
+          {/* <Col md={1} className="cursor"> */}
+          <Col md={1} className="">
             &nbsp;
           </Col>
         </Row>
@@ -56,7 +58,8 @@ const Terminal = ({ title, bash }) => {
           <Col md={8} className="line3 terminal-text">
             {mock[2]}
           </Col>
-          <Col md={1} className="cursor">
+          {/* <Col md={1} className="cursor"> */}
+          <Col md={1} className="">
             &nbsp;
           </Col>
         </Row>
@@ -70,7 +73,8 @@ const Terminal = ({ title, bash }) => {
           <Col md={8} className="line4 terminal-text">
             {mock[3]}
           </Col>
-          <Col md={1} className="cursor">
+          {/* <Col md={1} className="cursor"> */}
+          <Col md={1} className="">
             &nbsp;
           </Col>
         </Row>

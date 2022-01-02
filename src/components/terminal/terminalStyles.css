@@ -62,7 +62,7 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 0.5em solid var(--main-green);
-  animation: cursor 50ms steps(500) infinite;
+  animation: cursor 50ms steps(50) ease-in;
 }
 
 .terminal-text {
@@ -72,19 +72,23 @@
 
 
 .line1 {
-  animation: typewritter 2s steps(20) infinite;
+  animation: typewritter 8s steps(25) ease-in-out;
 }
 .line2 {
-  animation: typewritter 2s steps(20) infinite;
+  animation: typewritter 8s steps(25) ease-in-out;
+  animation-delay: -8s;
 }
 .line3 {
-  animation: typewritter 2s steps(20) infinite;
+  animation: typewritter 8s steps(25) ease-in-out;
+  animation-delay: -16s;
 }
 .line4 {
-  animation: typewritter 2s steps(20) infinite;
+  animation: typewritter 8s steps(25) ease-in-out;
+  animation-delay: -22s;
 }
 .line5 {
-  animation: typewritter 2s steps(20) infinite;
+  animation: typewritter 8s steps(25) infinite;
+  animation-delay: -30s;
 }
 
 
@@ -103,15 +107,6 @@
   }
   100% {
     border-right-color: var(--main-green);
-  }
-  0% {
-    border-right-color: transparent;
-  }
-  90% {
-    border-right-color: var(--main-green);
-  }
-  100% {
-    border-right-color: transparent;
   }
 }
 
