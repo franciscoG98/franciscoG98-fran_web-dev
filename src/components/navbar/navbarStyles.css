@@ -8,19 +8,11 @@
   flex-direction: row;
   font-size: 1.2em;
   height: 2em;
-  /* correct this shit */
-
-  /* margin-left: 25%; */
-  /* width: fit-content; */
-  max-width: 50vw;
-  margin-left: 15%;
-
-  /* correct this shit */
-
+  margin-left: 6vw;
+  padding: 1em 1.5em;
   position: relative;
-  padding: 10px 40px;
-  top: 10px;
-  z-index: 5;
+  top: 1em;
+  width: 69.5vw;
 }
 
 .navbar-link {
@@ -29,9 +21,8 @@
   font-size: 1.2em;
   font-weight: 500;
   justify-content: space-around;
-  padding: 10px 15px;
+  padding: 5px 1.5em;
   text-decoration: none;
-  width: fit-content;
 }
 
 .navbar-link :hover {
@@ -43,7 +34,7 @@
 }
 
 .active {
-  border-bottom: 2px solid var(--main-green);
+  border-bottom: 4px solid var(--main-green);
   color: var(--main-green);
   font-weight: 700;
   text-decoration: none;

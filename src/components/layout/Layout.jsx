@@ -31,7 +31,7 @@ const Layout = () => {
             modes: {
               bubble: {
                 distance: 200,
-                duration: 2,
+                duration: 20,
                 opacity: 0.8,
                 size: 40,
               },
