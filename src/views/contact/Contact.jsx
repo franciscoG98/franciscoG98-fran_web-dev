@@ -8,7 +8,6 @@ import {
   AiOutlineCodepen,
   AiOutlineCalendar,
 } from "react-icons/ai";
-// import { RiPagesLine } from "react-icons/ri";
 import Form from "../../components/form";
 
 const Contact = () => {
@@ -86,23 +85,6 @@ const Contact = () => {
       </Row>
 
       <Row className="contactme-container">
-        {/* old portfolio */}
-
-        {/* <Col xs={12} sm={6} md="6" lg={6} className="contactme-box">
-          <h3 className="contacte-title">Portfolio-v1</h3>
-          <hr />
-          <RiPagesLine size={70} />
-          <hr />
-          <a
-            href="https://franciscog98.github.io/portfolio/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-lnk"
-          >
-            Portfolio
-          </a>
-        </Col> */}
-
         {/* Mail */}
         <Col xs={12} sm={6} md={6} lg={6} className="contactme-box">
           <h3 className="contacte-title">Send me an email</h3>

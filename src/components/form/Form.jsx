@@ -1,49 +1,82 @@
-import React from "react";
+import React, { useState } from "react";
 import "./formStyles.css";
 import emailjs from "emailjs-com";
 
 const Form = () => {
-  function sendEmail(e) {
-    e.preventDefault();
-    // emailJS sendForm function recibes, service id, template id, e.target (with de data from the form), and userID
-    emailjs
-      .sendForm(
-        "service_s15e8fk",
-        "template_d9yf1qi",
-        e.target,
-        "user_3c9CDSSosUCOHpUVhpeAg"
-      )
-      .then((res) => {
-        console.log("response:\n", res);
-      })
-      .catch((err) => console.log("error:\n", err));
-  }
+    const [name, setName] = useState("");
+    const [userEmail, seteUserEmail] = useState("");
+    const [message, setMessage] = useState("");
 
-  return (
-    <div>
-      <form className="form_container" onSubmit={sendEmail}>
-        <label className="form_label">Name</label>
-        <br />
-        <input className="form_input" type="text" name="name" />
+    function sendEmail(e) {
+        e.preventDefault();
+        // emailJS sendForm function recibes, service id, template id, e.target (with de data from the form), and public key
+        emailjs
+            .sendForm(
+                "service_r021uvo",
+                "template_aimvqjj",
+                e.target,
+                "-qC5fYPWWvQb0xA6J"
+            )
+            .then((res) => {
+                console.log("response:\n", res);
+                setName("");
+                seteUserEmail("");
+                setMessage("");
+                alert("Sent!");
+            })
+            .catch((err) => console.log("error:\n", err));
+    }
 
-        <br />
+    return (
+        <div>
+            <form className="form_container" onSubmit={sendEmail}>
+                <label className="form_label">Name</label>
+                <br />
+                <input
+                    className="form_input"
+                    required
+                    type="text"
+                    name="name"
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
+                />
 
-        <label className="form_label">Email</label>
-        <br />
-        <input className="form_input" type="email" name="user_email" />
+                <br />
 
-        <br />
+                <label className="form_label">Email</label>
+                <br />
+                <input
+                    className="form_input"
+                    required
+                    type="email"
+                    name="user_email"
+                    onChange={(e) => seteUserEmail(e.target.value)}
+                    value={userEmail}
+                />
 
-        <label className="form_label">Message</label>
-        <br />
-        <textarea className="form_input" name="message" rows="4" />
+                <br />
 
-        <br />
+                <label className="form_label">Message</label>
+                <br />
+                <textarea
+                    className="form_input"
+                    required
+                    name="message"
+                    rows="4"
+                    onChange={(e) => setMessage(e.target.value)}
+                    value={message}
+                />
 
-        <input className="form_input submit_btn" type="submit" value="send" />
-      </form>
-    </div>
-  );
+                <br />
+
+                <input
+                    className="form_input submit_btn"
+                    type="submit"
+                    value="send"
+                />
+            </form>
+        </div>
+    );
 };
 
 export default Form;
