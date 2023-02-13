@@ -1,3 +1,34 @@
-.about-container {
-  position: relative;
+.about_container {
+  position: absolute;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  max-width: 100vw;
+}
+
+.swiper_container {
+  width: 55vw;
+  margin: 0 30%;
+}
+
+.about-item {
+  height: 300px;
+  width: 300px;
+  background-color: #008000;
+  border: 1px solid #fff;
+  z-index: 30;
+  top: 200px;
+  left: 200px;
+}
+
+.card_image {
+  height: auto;
+  margin-left: 2.5em;
+  vertical-align: middle;
+  width: 50vw;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: var(--main-green);
+  font-weight: 900;
 }
