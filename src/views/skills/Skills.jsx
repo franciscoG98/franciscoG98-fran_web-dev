@@ -27,14 +27,14 @@ import {
 // other icons
 import { FaLinux, FaGithub } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
-import { DiScrum } from "react-icons/di";
+import { DiScrum, DiGit } from "react-icons/di";
 
 const Skills = () => {
   return (
     <div className="skills-container">
       {/* front section */}
       <br />
-      <h4 className="skills-title">front end</h4>
+      <h4 className="skills-title">frontend</h4>
       <br />
       <Row className="skills-front">
         <Col>
@@ -80,7 +80,7 @@ const Skills = () => {
 
       <br />
       {/* back section */}
-      <h4 className="skills-title">back end</h4>
+      <h4 className="skills-title">backend</h4>
       <br />
       <Row className="skills-back">
         <Col>
@@ -139,6 +139,12 @@ const Skills = () => {
 
         <Col>
           <FaGithub size={55} className="skill-icon" />
+          <br />
+          <span className="skill-span">Github</span>
+        </Col>
+
+        <Col>
+          <DiGit size={55} className="skill-icon" />
           <br />
           <span className="skill-span">Github</span>
         </Col>

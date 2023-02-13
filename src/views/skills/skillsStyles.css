@@ -1,8 +1,10 @@
 .skills-container {
   display: relative;
   border: 2px solid red;
+  margin-left: 6vw;
   text-align: center;
   z-index: 3;
+  width: 60em;
 }
 
 .skills-title {
@@ -12,6 +14,7 @@
   font-size: 1.2em;
   padding: 10px;
   position: absolute;
+  margin: 10px 50%;
 }
 
 .skills-front {
@@ -42,5 +45,5 @@
 .skills-other {
   position: relative;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
