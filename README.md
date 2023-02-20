@@ -2,11 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This SPA is beeing created with react, react-bootstrap, react icons, etc.
-The main idea of this project is to show my skills as a web developer, and in the future MAYBE add test to it. Also learn more about deploy, because mi [portfolio V1](https://franciscog98.github.io/portfolio) is on github-pages, so I'd like to try something new.
+The main idea of this project is to show my skills as a web developer. Here is my previous [portfolio V1](https://franciscog98.github.io/portfolio).
 
 I'll maintein the terminal with typewritter effect on the landing page, but adding in all the other views the particles.js effect, some day I will show you some gif or video. The things I wanna improve about version 1 is the routing and the contact me section, because it seems that it isn't clear enough.
 
 hope you like my code!
+
+You can see it [here](https://portfolio-franciscog98.vercel.app/)
 
 ## Available Scripts
 
